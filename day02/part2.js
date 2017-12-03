@@ -43,6 +43,6 @@ function calculateChecksum(table) {
 }
 
 
-//assert.equal(calculateChecksum(testCase), TEST_CASE_RESULT);
+assert.equal(calculateChecksum(testCase), TEST_CASE_RESULT);
 
 console.log(calculateChecksum(input));
